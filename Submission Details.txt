@@ -1,0 +1,8 @@
+Name: Mark Gibson
+Student No: 10308693
+Email: gibsonma@tcd.ie
+
+Please find the complete source code in the ruby source code file P2P_Web_Search.rb.
+The code contains the Node class which represents a node in the network and contains the majority of functions, including index, search etc.
+The code also contains two threaded sections, one listens for messages and acts accordingly while the other awaits user input and acts accordingly to that.
+From what I have done, I believe that all the functions required work, though there may be several bugs still present but I have not had enough time to test extensively due to exam pressure etc. Due in part to my architecture, a flaw is that sending pings and acks, or waiting to receieve them after sending a message is very messy and difficult to implement. Hence, I have chosen not to fully implement these features.
